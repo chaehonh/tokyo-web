@@ -119,18 +119,19 @@ h1 {
 }
 .photo-wrap {
   display: flex;
-  flex-direction: row;   /* ⭐ 이게 핵심 */
+  flex-direction: row;   
   justify-content: center;
   gap: 12px;
   margin: 18px 0;
 }
 
 .photo {
-  width: 120px;          /* 너무 크면 줄바꿈됨 */
+  width: 120px;         
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 12px;
 }
+
 
 
 
