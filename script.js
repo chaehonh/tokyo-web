@@ -58,6 +58,7 @@ function showDay(day) {
     `;
   }
 }
+showDay(1);
 
 
 
