@@ -3,6 +3,7 @@ function showDay(day) {
 
   if (day === 1) {
     content.innerHTML = `
+      <img src="day1.jpg" class="photo">
       <h2>Day 1</h2>
       <ul>
         <li>시부야 스카이</li>
@@ -12,6 +13,7 @@ function showDay(day) {
     `;
   } else if (day === 2) {
     content.innerHTML = `
+      <img src="day2.jpg" class="photo">
       <h2>Day 2</h2>
       <ul>
         <li>디즈니씨</li>
@@ -21,6 +23,7 @@ function showDay(day) {
     `;
   } else {
     content.innerHTML = `
+      <img src="day3.jpg" class="photo">
       <h2>Day 3</h2>
       <ul>
         <li>츠지한</li>
