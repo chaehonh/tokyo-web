@@ -5,15 +5,15 @@ function showDay(day) {
     content.innerHTML = `
       <img src="day1.jpg" class="photo">
       <div class="card-content">
-        <h2>Day 1 · Shibuya</h2>
+        <h2>Day 1 🌸</h2>
         <p>
-          도쿄 첫날 ✈️  
-          시부야에서 시작한 여행.
+          도쿄 도착! ✈️  
+          시부야에서 하루를 시작했다.
         </p>
         <ul>
-          <li>#시부야</li>
-          <li>#도쿄여행</li>
-          <li>#tokyo</li>
+          <li>시부야</li>
+          <li>라멘</li>
+          <li>첫날</li>
         </ul>
       </div>
     `;
@@ -21,15 +21,15 @@ function showDay(day) {
     content.innerHTML = `
       <img src="day2.jpg" class="photo">
       <div class="card-content">
-        <h2>Day 2 · DisneySea</h2>
+        <h2>Day 2 🎠</h2>
         <p>
-          하루 종일 있어도 부족한 디즈니씨 🎢  
-          분위기 최고.
+          하루 종일 디즈니씨 💫  
+          진짜 꿈나라 같았다.
         </p>
         <ul>
-          <li>#디즈니씨</li>
-          <li>#여행스타그램</li>
-          <li>#disneysea</li>
+          <li>디즈니씨</li>
+          <li>놀이기구</li>
+          <li>최고</li>
         </ul>
       </div>
     `;
@@ -37,17 +37,18 @@ function showDay(day) {
     content.innerHTML = `
       <img src="day3.jpg" class="photo">
       <div class="card-content">
-        <h2>Day 3 · Goodbye Tokyo</h2>
+        <h2>Day 3 🧸</h2>
         <p>
           마지막 날 🥹  
-          아쉬움 가득 안고 귀국.
+          아쉬운 마음으로 귀국.
         </p>
         <ul>
-          <li>#도쿄맛집</li>
-          <li>#여행끝</li>
-          <li>#goodbye</li>
+          <li>맛집</li>
+          <li>쇼핑</li>
+          <li>굿바이</li>
         </ul>
       </div>
     `;
   }
 }
+
