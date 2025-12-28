@@ -1,80 +1,83 @@
 body {
-  font-family: 'Pretendard', 'Segoe UI', Arial, sans-serif;
-  background: #f2f4f8;
   margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 420px;
-  margin: 0 auto;
-  padding: 30px 20px 60px;
-}
-
-h1 {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 30px;
+  background: #fafafa;
+  font-family: 'Apple SD Gothic Neo', 'Pretendard', sans-serif;
   color: #222;
 }
 
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  margin: 20px 0 6px;
+}
+
 .subtitle {
-  text-align: center;
-  color: #777;
-  margin-bottom: 30px;
   font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
 }
 
 .buttons {
   display: flex;
-  justify-content: center;
   gap: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .buttons button {
   flex: 1;
-  padding: 12px 0;
+  padding: 10px 0;
   border: none;
-  border-radius: 14px;
+  border-radius: 10px;
   background: #ffffff;
   font-size: 14px;
   cursor: pointer;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
-  transition: all 0.25s ease;
+  border: 1px solid #e5e5e5;
 }
 
 .buttons button:hover {
-  transform: translateY(-2px);
+  background: #f2f2f2;
 }
 
 .card {
   background: white;
-  border-radius: 22px;
-  padding: 20px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-}
-
-.card h2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 20px;
-  color: #5a7cff;
-  text-align: center;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
 .photo {
   width: 100%;
-  border-radius: 18px;
-  margin-bottom: 15px;
+  display: block;
+}
+
+.card-content {
+  padding: 18px;
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 12px;
 }
 
 .card ul {
   padding-left: 18px;
+  margin: 0;
 }
 
 .card li {
   font-size: 14px;
-  margin: 8px 0;
-  color: #444;
+  margin: 6px 0;
 }
+
