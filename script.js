@@ -10,6 +10,7 @@ function showDay(day) {
           시부야에서 하루를 시작했다.
         </p>
         <img src="day1.jpg" class="photo">
+        <div class="divider"></div>
         <ul>
           <li>시부야</li>
           <li>라멘</li>
@@ -26,10 +27,11 @@ function showDay(day) {
           진짜 꿈나라 같았다.
         </p>
            <img src="day2.jpg" class="photo">
+           <div class="divider"></div>
         <ul>
           <li>디즈니씨</li>
           <li>놀이기구</li>
-          <li>최고</li>
+          <li>야경최고</li>
         </ul>
       </div>
     `;
@@ -42,6 +44,7 @@ function showDay(day) {
           아쉬운 마음으로 귀국.
         </p>
          <img src="day3.jpg" class="photo">
+         <div class="divider"></div>
         <ul>
           <li>맛집</li>
           <li>쇼핑</li>
@@ -51,5 +54,6 @@ function showDay(day) {
     `;
   }
 }
+
 
 
