@@ -4,7 +4,7 @@ body {
   font-family: 'Apple SD Gothic Neo', 'Pretendard', sans-serif;
   color: #444;
 }
-
+font-size: 16px;
 .container {
   max-width: 420px;
   margin: 0 auto;
@@ -104,6 +104,7 @@ h1 {
   color: #888;
   margin-bottom: 12px;
 }
+
 
 
 
