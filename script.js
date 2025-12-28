@@ -45,7 +45,7 @@ function showDay(day) {
         <p class="meta">📅 2025.07 · 📍 Tokyo</p>
         <p>
           마지막 날 🥹  
-          아쉬운 마음으로 귀국.
+         쇼핑 후 아쉬운 마음으로 귀국.
         </p>
          <img src="day3.jpg" class="photo">
          <div class="divider"></div>
@@ -59,6 +59,7 @@ function showDay(day) {
   }
 }
 showDay(1);
+
 
 
 
