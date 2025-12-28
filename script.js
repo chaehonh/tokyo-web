@@ -1,4 +1,5 @@
 function showDay(day) {
+  window.scrollTo(0, 0);
   const content = document.getElementById("content");
 
   if (day === 1) {
@@ -57,6 +58,7 @@ function showDay(day) {
     `;
   }
 }
+
 
 
 
