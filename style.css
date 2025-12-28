@@ -55,6 +55,12 @@ h1 {
 
 .photo {
   width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+
 }
 
 /* 내용 */
@@ -88,6 +94,7 @@ h1 {
   font-size: 12px;
   margin-right: 6px;
 }
+
 
 
 
