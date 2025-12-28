@@ -4,7 +4,8 @@ function showDay(day) {
   if (day === 1) {
     content.innerHTML = `
       <div class="card-content">
-        <h2>Day 1 🌸</h2>
+        <h2>Day 1 시부야 🌸</h2>
+        <p class="meta">📅 2025.07 · 📍 Tokyo</p>
         <p>
           도쿄 도착! ✈️  
           시부야에서 하루를 시작했다.
@@ -21,7 +22,8 @@ function showDay(day) {
   } else if (day === 2) {
     content.innerHTML = `
       <div class="card-content">
-        <h2>Day 2 🎠</h2>
+        <h2>Day 2 디즈니씨 🎠</h2>
+        <p class="meta">📅 2025.07 · 📍 Tokyo</p>
         <p>
           하루 종일 디즈니씨 💫  
           진짜 꿈나라 같았다.
@@ -38,7 +40,8 @@ function showDay(day) {
   } else {
     content.innerHTML = `
       <div class="card-content">
-        <h2>Day 3 🧸</h2>
+        <h2>Day 3 귀국🧸</h2>
+        <p class="meta">📅 2025.07 · 📍 Tokyo</p>
         <p>
           마지막 날 🥹  
           아쉬운 마음으로 귀국.
@@ -54,6 +57,7 @@ function showDay(day) {
     `;
   }
 }
+
 
 
 
