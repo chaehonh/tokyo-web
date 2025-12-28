@@ -1,53 +1,55 @@
 body {
   margin: 0;
-  background: #fafafa;
+  background: #ffffff;
   font-family: 'Apple SD Gothic Neo', 'Pretendard', sans-serif;
   color: #222;
 }
 
 .container {
-  max-width: 480px;
+  max-width: 430px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 16px;
 }
 
 h1 {
-  font-size: 26px;
-  margin: 20px 0 6px;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 16px 0 4px;
 }
 
 .subtitle {
-  font-size: 14px;
-  color: #888;
-  margin-bottom: 20px;
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 16px;
 }
 
+/* Day 버튼 */
 .buttons {
   display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 8px;
+  margin-bottom: 16px;
 }
 
 .buttons button {
   flex: 1;
-  padding: 10px 0;
-  border: none;
-  border-radius: 10px;
-  background: #ffffff;
-  font-size: 14px;
+  padding: 8px 0;
+  font-size: 13px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  background: #fafafa;
   cursor: pointer;
-  border: 1px solid #e5e5e5;
 }
 
 .buttons button:hover {
-  background: #f2f2f2;
+  background: #f0f0f0;
 }
 
+/* 카드 = 인스타 게시물 */
 .card {
-  background: white;
-  border-radius: 14px;
+  border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border: 1px solid #eee;
+  margin-bottom: 24px;
 }
 
 .photo {
@@ -55,29 +57,36 @@ h1 {
   display: block;
 }
 
+/* 게시물 내용 */
 .card-content {
-  padding: 18px;
+  padding: 14px;
 }
 
 .card h2 {
-  margin: 0 0 10px;
-  font-size: 20px;
+  font-size: 15px;
+  margin: 0 0 6px;
 }
 
 .card p {
-  font-size: 14px;
-  color: #555;
+  font-size: 13px;
   line-height: 1.6;
-  margin-bottom: 12px;
+  color: #444;
+  margin-bottom: 10px;
 }
 
+/* 해시태그 느낌 */
 .card ul {
-  padding-left: 18px;
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
 
 .card li {
-  font-size: 14px;
-  margin: 6px 0;
+  display: inline-block;
+  font-size: 12px;
+  color: #3b5cff;
+  margin-right: 6px;
 }
+
+
 
