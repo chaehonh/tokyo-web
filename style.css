@@ -58,7 +58,7 @@ h1 {
   background: #ffffff;
   border-radius: 20px;
   box-shadow: 0 10px 18px rgba(255, 183, 210, 0.35);
-  overflow: hidden;
+  overflow: visible;
 }
 
 .card-content { padding: 16px; }
@@ -123,5 +123,6 @@ h1 {
   box-shadow: 0 10px 20px rgba(0,0,0,0.10);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 
