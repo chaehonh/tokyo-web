@@ -1,4 +1,12 @@
 function showDay(day) {
+  // 버튼 active 처리
+  const buttons = document.querySelectorAll(".buttons button");
+  buttons.forEach(btn => btn.classList.remove("active"));
+  buttons[day - 1].classList.add("active");
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
+  const content = document.getElementById("content");
+{
   window.scrollTo({ top: 0, behavior: "smooth" });
   const content = document.getElementById("content");
 
@@ -74,6 +82,7 @@ function showDay(day) {
 }
 
 showDay(1);
+
 
 
 
