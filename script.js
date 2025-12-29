@@ -1,3 +1,4 @@
+alert("script.js 연결됨!");
 function showDay(day) {
   // 버튼 active 처리
   const buttons = document.querySelectorAll(".buttons button");
@@ -82,6 +83,7 @@ function showDay(day) {
 }
 
 showDay(1);
+
 
 
 
