@@ -52,16 +52,6 @@ h1 {
   box-shadow: 0 10px 18px rgba(255, 183, 210, 0.35);
   overflow: hidden;
 }
-.photo {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 12px;
-  display: block;
-  margin: 18px auto;
-}
-
-}
 
 /* 내용 */
 .card-content {
@@ -110,12 +100,13 @@ h1 {
   gap: 12px;
   margin: 18px 0;
 }
-
-.photo {
-  width: 300px;
+.photo{
+  width: min(520px, 100%);
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 12px;
+  display: block;
+  margin: 18px auto;
 }
 
 
