@@ -36,6 +36,15 @@
 </html>
 <div class="container">
 <img class="photo fade-up" src="...">
+<button class="info-btn" onclick="toggleInfo()">사진에 담긴 이야기</button>
+<p id="info" hidden>이 섹션은 감성적인 레이아웃을 목표로 구성했습니다.</p>
+<script>
+function toggleInfo(){
+  const el = document.getElementById("info");
+  el.hidden = !el.hidden;
+}
+</script>
+
 
 
 
