@@ -1,42 +1,27 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>채홍이의 Tokyo 2박 3일 여행</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
+    <h1>Tokyo Trip ✈️</h1>
+    <p class="subtitle">@mytokyotravel · 2박 3일</p>
 
-  <h1>Tokyo Trip ✈️</h1>
-  <p class="subtitle">@mytokyotravel · 2박 3일</p>
-
-  <div class="buttons">
-    <button onclick="showDay(1)">Day 1</button>
-    <button onclick="showDay(2)">Day 2</button>
-    <button onclick="showDay(3)">Day 3</button>
-  </div>
-
-  <div id="content" class="card">
-    <img src="day1.jpg" class="photo" alt="Day 1 사진">
-    <div class="card-content">
-      <h2>Day 1 🌸</h2>
-      <p>도쿄 도착!</p>
-      <ul>
-        <li>시부야</li>
-        <li>라멘</li>
-        <li>첫날</li>
-      </ul>
+    <div class="buttons">
+      <button onclick="showDay(1)">Day 1</button>
+      <button onclick="showDay(2)">Day 2</button>
+      <button onclick="showDay(3)">Day 3</button>
     </div>
+
+    <!-- 여기가 JS로 바뀌는 영역 -->
+    <div id="content" class="card"></div>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
 
