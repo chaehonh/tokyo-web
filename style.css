@@ -5,7 +5,7 @@ body {
   color: #444;
   font-size: 16px;
 }
-font-size: 16px;
+
 .container {
   max-width: 420px;
   margin: 0 auto;
@@ -15,14 +15,14 @@ font-size: 16px;
 h1 {
   font-size: 24px;
   text-align: center;
-  margin-bottom: 4px;
+  margin: 10px 0 4px;
 }
 
 .subtitle {
   font-size: 13px;
   text-align: center;
   color: #888;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
 }
 
 /* 버튼 */
@@ -40,10 +40,18 @@ h1 {
   background: #ffd6e8;
   font-size: 13px;
   cursor: pointer;
+  transition: transform 0.15s ease, background 0.2s ease;
 }
 
-.buttons button:hover {
-  background: #ffc1dc;
+.buttons button:hover { background: #ffc1dc; }
+.buttons button:active { transform: scale(0.97); }
+
+/* 선택된 Day 버튼 */
+.buttons button.active{
+  background: #ff9fc8;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 6px 12px rgba(255, 159, 200, 0.45);
 }
 
 /* 카드 */
@@ -54,23 +62,26 @@ h1 {
   overflow: hidden;
 }
 
-/* 내용 */
-.card-content {
-  padding: 16px;
-}
+.card-content { padding: 16px; }
 
 .card h2 {
   font-size: 18px;
-  margin-bottom: 8px;
+  margin: 0 0 8px;
+}
+
+.meta {
+  font-size: 12px;
+  color: #888;
+  margin: 0 0 12px;
 }
 
 .card p {
   font-size: 14px;
   line-height: 1.6;
-  margin-bottom: 10px;
+  margin: 0 0 10px;
 }
 
-/* 장소 태그 */
+/* 태그 */
 .card ul {
   list-style: none;
   padding: 0;
@@ -85,85 +96,34 @@ h1 {
   font-size: 12px;
   margin-right: 6px;
 }
+
+/* 구분선 */
 .divider {
   height: 1px;
   background: #e5e5e5;
-  margin: 24px 0;
+  margin: 18px 0;
 }
-.meta {
-  font-size: 12px;
-  color: #888;
-  margin-bottom: 12px;
-}
+
+/* 사진 */
 .photo-wrap {
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin: 18px 0;
+  margin: 14px 0;
 }
-.photo{
-  width: min(520px, 100%);
+
+.photo {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 12px;
-  display: block;
-  margin: 18px auto;
-}
-.photo{
+  width: 180px;
+  flex: 1;
+  max-width: 190px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-hover{
+.photo:hover{
   transform: scale(1.05);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.20);
 }
-.fade-up{
-  opacity: 0;
-  transform: translateY(30px);
-  animation: fadeUp 0.9s ease forwards;
-}
-
-@keyframes fadeUp{
-  to{
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.photo-wrap .photo{
-  margin: 0;
-  flex: 1;
-  max-width: 190px;
-}
-/* 선택된 Day 버튼 */
-.buttons button.active{
-  background: #ff9fc8;
-  color: #fff;
-  font-weight: 600;
-  box-shadow: 0 6px 12px rgba(255, 159, 200, 0.45);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
