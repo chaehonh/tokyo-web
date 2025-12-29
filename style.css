@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 420px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 18px;
 }
@@ -127,3 +127,4 @@ h1 {
   transform: scale(1.05);
   box-shadow: 0 12px 28px rgba(0,0,0,0.20);
 }
+
