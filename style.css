@@ -117,14 +117,10 @@ h1 {
   border-radius: 12px;
 
   width: 100%;
-  max-width: none;
   flex: 1;
+  max-width: 320px;   /* 👈 여기 숫자만 조절 */
 
   box-shadow: 0 10px 20px rgba(0,0,0,0.10);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.photo:hover{
-  transform: scale(1.05);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.20);
-}
