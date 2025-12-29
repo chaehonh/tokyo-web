@@ -128,9 +128,6 @@ h1 {
     transform: translateY(0);
   }
 }
-.photo{
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
-}
 
 
 
