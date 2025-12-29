@@ -123,8 +123,11 @@ h1 {
   box-shadow: 0 10px 20px rgba(0,0,0,0.10);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.photo:hover {
-  outline: 5px solid red;
+.photo:hover{
+  transform: scale(1.08) !important;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.20);
+  z-index: 999;
+  position: relative;
 }
 
 
