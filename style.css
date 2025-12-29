@@ -112,12 +112,11 @@ h1 {
 }
 
 .photo {
-  width: 120px;
+  width: 300px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 12px;
 }
-<img src="https://raw.githubusercontent.com/username/repo/main/image.png" style="width:500px; height:auto;">
 
 
 
