@@ -26,9 +26,9 @@ function showDay(day) {
 
         <div class="divider"></div>
         <ul>
-          <li>>🛍️ 시부야</li>
-          <li>>🍜 라멘</li>
-          <li>>📸 첫날</li>
+          <li>🛍️ 시부야</li>
+          <li>🍜 라멘</li>
+          <li>📸 첫날</li>
         </ul>
       </div>
     `;
@@ -78,4 +78,5 @@ function showDay(day) {
 document.addEventListener("DOMContentLoaded", () => {
   showDay(1);
 });
+
 
